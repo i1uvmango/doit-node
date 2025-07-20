@@ -4,6 +4,8 @@
 // let sum = (a, b) => { return a + b; };
 
 // 화살표 함수를 좀더 간단하게
-let sum = (a, b) => a + b;
+let sum = (a , b) => {
+    return a + b ;
+}
 
-sum(100, 200); // 300
+console.log(sum(100, 200)); // 300
